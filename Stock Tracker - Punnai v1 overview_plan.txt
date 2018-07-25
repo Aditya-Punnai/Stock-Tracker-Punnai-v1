@@ -1,15 +1,32 @@
-1. Stock Tracker - Punnai v1
+ Creator:Aditya Punnai
+ Email:Aditya.Punnai@gmail.com
+ 
+ Stock Tracker - Punnai v1
 
 1. what are the inputs we need from users?
 - stock_list
 - start_date
 - end_date
 - email_address
-convert?
 
-2. using the above info. from (morningstar - temp / yahoofinance)
 
-4. Convert the data to csv 
+2. using the above to extract stock data from morningstar
 
-3. send the user an email with attachment
+3. Convert the data to csv and download it on local drive for user
+
+4. send the user an email notification and attach csv to it
+
+-----
+
+Things to work on:
+1. Morningstar only gives the past 5 years worth of data, need to find a better source. (Yahoo not working, Google not reliable)
+
+2. Modify tkinter such that the window closes as soon as submit is hit
+
+3. A popup window asking user to open the path and email [Has OK button]
+
+4. Need to attach the csv on Email (Having issues with path setup)
+
+5. Setup a UT
+
 
