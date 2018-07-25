@@ -18,6 +18,8 @@
 
 -----
 
+Create a Read Me for new users 
+
 Things to work on:
 1. Morningstar only gives the past 5 years worth of data, need to find a better source. (Yahoo not working, Google not reliable)
 
