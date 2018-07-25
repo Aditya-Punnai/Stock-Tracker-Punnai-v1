@@ -109,8 +109,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # https://myaccount.google.com/lesssecureapps
-from_email = "pythonpunnai@gmail.com" #input("enter your email ") #I will input my email 
-password = "test123456*" #input("enter password of the email ") # I will input my password
+from_email = input("enter your email ") # I will input my email 
+password = input("enter password of the email ") # I will input my password
 to_address = list(send_email)
 
 msg = MIMEMultipart() #Creates an instance of message part
