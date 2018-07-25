@@ -1,0 +1,15 @@
+1. Stock Tracker - Punnai v1
+
+1. what are the inputs we need from users?
+- stock_list
+- start_date
+- end_date
+- email_address
+convert?
+
+2. using the above info. from (morningstar - temp / yahoofinance)
+
+4. Convert the data to csv 
+
+3. send the user an email with attachment
+
